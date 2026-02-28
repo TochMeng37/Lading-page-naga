@@ -12,7 +12,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-3">Tautan Bantuan</h4>
             <ul className="space-y-2 text-white/70">
-              <li><a href="https://superliga168cermat.com/" rel="nofollow noopener" className="hover:text-white">Lanjut ke Login</a></li>
+              <li><a href="/contact" className="hover:text-white">Hubungi Support</a></li>
               <li><Link href="#help" className="hover:text-white">Pusat Bantuan</Link></li>
               <li><Link href="#steps" className="hover:text-white">Langkah Login</Link></li>
             </ul>

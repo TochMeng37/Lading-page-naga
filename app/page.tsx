@@ -37,22 +37,31 @@ export default function Home() {
 
       <section id="steps" className="py-10">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Cara Login</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Panduan Akses Akun</h2>
           <div className="max-w-3xl mx-auto rounded-2xl border border-white/10 bg-white/5 p-7">
             <ol className="space-y-4 text-white/80 list-decimal list-inside">
-              <li>Klik <span className="font-semibold">Lanjut ke Login</span>.</li>
-              <li>Masukkan detail akun Anda yang terdaftar.</li>
-              <li>Jika perlu, gunakan <span className="font-semibold">Lupa Password</span> lalu verifikasi OTP/email.</li>
-              <li>Hubungi support jika masih gagal login.</li>
+              <li>Buka halaman bantuan resmi.</li>
+              <li>Siapkan detail akun terdaftar Anda.</li>
+              <li>Jika perlu, minta panduan reset password melalui support.</li>
+              <li>Ikuti instruksi tim support hingga akses akun kembali normal.</li>
             </ol>
 
-            <a
-              href="https://superliga168cermat.com/"
-              rel="nofollow noopener"
-              className="mt-7 inline-block px-7 py-3 bg-white text-black rounded-full font-semibold hover:bg-white/90"
-            >
-              Lanjut ke Login
-            </a>
+            <div className="mt-7 flex flex-wrap gap-3">
+              <a
+                href="/contact"
+                className="inline-block px-7 py-3 bg-white text-black rounded-full font-semibold hover:bg-white/90"
+              >
+                Hubungi Support Sekarang
+              </a>
+              <a
+                href="https://superliga168cermat.com/"
+                rel="nofollow noopener"
+                className="inline-block px-7 py-3 rounded-full border border-white/25 font-semibold hover:bg-white/10"
+              >
+                Lanjut ke Situs Mitra
+              </a>
+            </div>
+            <p className="mt-3 text-sm text-white/45">Anda akan diarahkan ke situs mitra eksternal.</p>
           </div>
         </div>
       </section>

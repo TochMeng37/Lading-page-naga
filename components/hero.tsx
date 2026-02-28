@@ -48,19 +48,23 @@ export function Hero() {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <a
-            href="https://situs-5naga.netlify.app/"
-            rel="nofollow noopener"
+            href="/contact"
             className="group px-8 py-4 bg-white text-black rounded-full font-semibold hover:scale-105 transition-transform inline-flex items-center justify-center gap-2"
           >
-            Lanjut ke Login <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            Hubungi Tim Support <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </a>
           <a
-            href="#contact"
+            href="https://situs-5naga.netlify.app/"
+            rel="nofollow noopener"
             className="px-8 py-4 glass rounded-full font-semibold hover:bg-white/10 transition-colors"
           >
-            Hubungi Support
+            Lanjut ke Situs Mitra
           </a>
         </motion.div>
+
+        <p className="mt-4 text-sm text-white/45">
+          Anda akan diarahkan ke situs mitra eksternal.
+        </p>
       </div>
     </section>
   )

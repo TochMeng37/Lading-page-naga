@@ -9,9 +9,13 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Naga5 Support | Portal Bantuan Resmi",
+  title: "Naga5 Support | Portal Bantuan",
   description: "Portal bantuan resmi untuk kendala login akun, reset password, dan dukungan pengguna.",
-  generator: "v0.app",
+  icons: {
+    icon: "/naga5-logo.jpg",
+    shortcut: "/naga5-logo.jpg",
+    apple: "/naga5-logo.jpg",
+  },
 }
 
 export default function RootLayout({
